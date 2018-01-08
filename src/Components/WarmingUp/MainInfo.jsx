@@ -1,7 +1,7 @@
 import React from 'react';
-import '../StyleElements/WarmingUpAndFinishing/MainInfos.css';
+import '../StyleElements/WarmingUpAndFinishing/MainInfo.css';
 
-export default class CandidateNamePanes extends React.Component {
+export default class MainTheme extends React.Component {
     render() {
         return (
             <div className="WholePanes">
@@ -17,7 +17,7 @@ export default class CandidateNamePanes extends React.Component {
                     </div>
                 </div>
                 <div className="Point">
-                    <p>0</p>
+                    <p>100</p>
                 </div>
             </div>
         );

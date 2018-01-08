@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2282721a-5860-4873-9dba-f050fc475116" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfos.jsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfos.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css" afterPath="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" afterPath="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +26,52 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainInfo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopNamesAndPoints.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/TopNamesAndPoints.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DropListActions.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopCandidatePanes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -29,53 +80,21 @@
       <file leaf-file-name="MainWarmingUp.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopCandidateInfos.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfos.jsx">
+      <file leaf-file-name="MainInfo.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainInfo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CandidateNamePanes.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainInfos.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfos.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectionName.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/SectionName.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -101,13 +120,19 @@
         <option value="$PROJECT_DIR$/src/Components/StyleElements/CandidateNamePanes.css" />
         <option value="$PROJECT_DIR$/src/Components/StyleElements/SectionAndMainCandidate.js" />
         <option value="$PROJECT_DIR$/src/Components/StyleElements/MainInfos.css" />
-        <option value="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" />
         <option value="$PROJECT_DIR$/src/Components/WarmingUp/SectionName.jsx" />
-        <option value="$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx" />
         <option value="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/SectionAndMainCandidate.js" />
         <option value="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidateInfos.jsx" />
-        <option value="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css" />
         <option value="$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfos.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfo.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/TopNamesAndPoints.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css" />
+        <option value="$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfo.css" />
+        <option value="$PROJECT_DIR$/src/Components/WarmingUp/MainInfo.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/DropdownMenu.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx" />
       </list>
     </option>
   </component>
@@ -182,6 +207,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="olpa_newver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="olpa_newver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="Images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,7 +252,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IT-Catalog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -254,15 +287,16 @@
       <updated>1515339541045</updated>
       <workItem from="1515339563110" duration="4206000" />
       <workItem from="1515379445177" duration="9755000" />
-      <workItem from="1515418823359" duration="560000" />
+      <workItem from="1515418823359" duration="6027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14521000" />
+    <option name="totallyTimeSpent" value="19988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1358" height="726" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -272,7 +306,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -291,9 +325,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -337,9 +371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -363,9 +395,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -398,41 +428,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/CandidateNamePanes.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/CandidateNamePanes.css" />
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/SectionAndMainCandidate.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/MainInfos.css" />
     <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidateInfos.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/SectionAndMainCandidate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfos.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfos.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -445,27 +469,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/SectionAndMainCandidate.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="102">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfos.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/TopCandidateInfo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainTheme.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="46" column="22" lean-forward="false" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/DropdownMenu.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/TopNamesAndPoints.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
