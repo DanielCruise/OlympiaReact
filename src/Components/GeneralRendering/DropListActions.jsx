@@ -1,34 +1,18 @@
 import React from 'react';
-import {Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import "../StyleElements/GeneralStyles/DropListActions.css";
 
 export default class DropListActions extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.toggle = this.toggle.bind(this);
-        this.state = {
-            dropdownOpen: false
-        };
-    }
-
-    toggle() {
-        this.setState({
-            dropdownOpen: !this.state.dropdownOpen
-        });
-    }
-
     render() {
         return (
-            <Dropdown style={{position: "fixed", color: "black", zIndex: 5}} size="sm">
-                <DropdownToggle caret>=</DropdownToggle>
-                <DropdownMenu right>
-                    <DropdownItem>THÍ SINH TIẾP THEO</DropdownItem>
-                    <DropdownItem divider/>
-                    <DropdownItem>CẬP NHẬT ĐIỂM</DropdownItem>
-                    <DropdownItem divider/>
-                    <DropdownItem>TỔNG KẾT ĐIỂM</DropdownItem>
-                </DropdownMenu>
-            </Dropdown>
+            <div className="dropdown" style={{position: "fixed", zIndex: 5}}>
+                <button type="button" className="btn btn-secondary dropdown-toggle" data-toggle="dropdown"></button>
+                <div className="dropdown-menu">
+                    <p className="dropdown-item">THÍ SINH TIẾP THEO</p>
+                    <p className="dropdown-item">CẬP NHẬT ĐIỂM</p>
+                    <p className="dropdown-item">TỔNG KẾT ĐIỂM</p>
+                </div>
+            </div>
         );
+
     }
 }

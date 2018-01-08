@@ -1,5 +1,5 @@
 import React from "react";
-import '../StyleElements/WarmingUpAndFinishing/TopCandidatePanes.css';
+import '../StyleElements/GeneralStyles/TopCandidatePanes.css';
 
 export default class TopNamesAndPoints extends React.Component {
     render() {
