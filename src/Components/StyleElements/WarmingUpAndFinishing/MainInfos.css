@@ -1,0 +1,49 @@
+.WholePanes {
+    width: 1150px;
+    margin-left: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.CandidateAndQuestion {
+    float: left;
+}
+
+.BigCandidatePane {
+    display: flex;
+    width: 930px;
+    margin-top: 60px;
+}
+
+.BigCandidatePane p {
+    background-color: black;
+    opacity: 0.7;
+    margin: 0 auto;
+    width: 228px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Question p {
+    margin: 0;
+    font-size: 22px;
+    padding: 5px 8px;
+    border-spacing: 5px;
+    height: 110px;
+    width: 914px;
+}
+
+.Point p {
+    float: left;
+    font-size: 70px;
+    width: 155px;
+    padding: 14px;
+    margin-top: 105px;
+    margin-left: 30px;
+    color: dodgerblue;
+    text-align: center;
+}
+
+
+
