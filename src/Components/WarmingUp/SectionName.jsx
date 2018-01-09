@@ -1,5 +1,5 @@
 import React from "react";
-import {sectionName} from '../StyleElements/WarmingUpAndFinishing/SectionAndMainCandidate';
+import {sectionName} from '../../Stylesheet/WarmingUpAndFinishing/SectionAndMainCandidate';
 
 export default class SectionName extends React.Component {
     render() {

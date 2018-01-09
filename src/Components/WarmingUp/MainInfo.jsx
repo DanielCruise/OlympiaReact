@@ -1,5 +1,5 @@
 import React from 'react';
-import '../StyleElements/WarmingUpAndFinishing/MainInfo.css';
+import '../../Stylesheet/WarmingUpAndFinishing/MainInfo.css';
 
 export default class MainTheme extends React.Component {
     render() {

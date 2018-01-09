@@ -1,5 +1,5 @@
 import React from 'react';
-import "../StyleElements/GeneralStyles/DropListActions.css";
+import "../../Stylesheet/GeneralStyles/DropListActions.css";
 
 export default class DropListActions extends React.Component {
     render() {

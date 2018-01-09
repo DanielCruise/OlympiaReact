@@ -4,7 +4,7 @@ import DropListActions from "../GeneralRendering/DropListActions";
 import SectionName from "./SectionName";
 import MainInfo from "./MainInfo";
 
-import {backgroundImage} from "../StyleElements/WarmingUpAndFinishing/SectionAndMainCandidate";
+import {backgroundImage} from "../../Stylesheet/WarmingUpAndFinishing/SectionAndMainCandidate";
 
 export default class MainWarmingUp extends React.Component {
 
