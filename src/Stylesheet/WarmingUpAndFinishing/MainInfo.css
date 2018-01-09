@@ -5,6 +5,7 @@
 
 .WholePanes {
     width: 1150px;
+    margin-top: 527px;
     margin-left: 100px;
     font-weight: bold;
     color: white;
@@ -17,7 +18,6 @@
 .BigCandidatePane {
     display: flex;
     width: 930px;
-    margin-top: 110px;
 }
 
 .BigCandidatePane p {
@@ -31,7 +31,6 @@
 }
 
 .Question p {
-    margin: 0;
     font-size: 22px;
     padding: 5px 8px;
     border-spacing: 5px;
@@ -43,7 +42,7 @@
     float: left;
     font-size: 80px;
     width: 185px;
-    margin-top: 150px;
+    margin-top: 40px;
     margin-left: 30px;
     color: dodgerblue;
     text-align: center;

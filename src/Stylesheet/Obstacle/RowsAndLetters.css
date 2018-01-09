@@ -1,0 +1,57 @@
+.Whole {
+    position: fixed;
+    color: white;
+    font-weight: bold;
+}
+
+.allRows {
+    margin-left: 20px;
+    float: left;
+    width: 1260px;
+}
+
+.Rows {
+    margin-top: 130px;
+    width: 100%;
+}
+
+.Rows p {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    float: left;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.Row2 p, .Row3 p, .Row4 p,.RowIndexes p:nth-child(n+2) {
+    margin-top: 25px;
+}
+
+.RowIndexes {
+    float: left;
+    margin-left: 20px;
+    width: 50px;
+}
+
+.RowIndexes p {
+    padding: 7px 0;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 30%;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.QuestionPane {
+    float: left;
+    padding-left: 5px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 170px;
+    width: 928px;
+}
+
+/* How to float within a div without effecting another???*/

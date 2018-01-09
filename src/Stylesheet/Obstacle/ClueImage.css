@@ -1,0 +1,31 @@
+.ClueImageRender {
+    position: fixed;
+}
+
+.Piece1, .Piece2, .Piece3, .Piece4, .PieceCenter {
+    width: 360px;
+    height: 270px;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 350px;
+}
+
+.Piece2 {
+    margin-top: 275px;
+}
+
+.Piece3 {
+    margin-top: 275px;
+    margin-left: 710px;
+}
+
+.Piece4 {
+    margin-left: 710px;
+}
+
+.PieceCenter {
+    width: 367px;
+    height: 277px;
+    margin-top: 135px;
+    margin-left: 525px;
+}

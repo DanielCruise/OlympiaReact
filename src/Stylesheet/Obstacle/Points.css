@@ -1,0 +1,54 @@
+.All {
+    position: fixed;
+    width: 100%;
+    margin-top: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.AddPointInAdv, .AddPointInRows, .Names, .Points {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Names p, .Points p {
+    background-color: black;
+    margin: 0 auto;
+    width: 200px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.Points p {
+    padding: 0;
+    font-size: 80px;
+}
+
+.PtInRows1, .PtInRows2, .PtInRows3, .PtInRows4, .PtInAdv1, .PtInAdv2, .PtInAdv3, .PtInAdv4 {
+    background-color: black;
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+}
+
+.PtInRows1 p, .PtInRows2 p, .PtInRows3 p, .PtInRows4 p, .PtInAdv1 p, .PtInAdv2 p, .PtInAdv3 p, .PtInAdv4 p {
+    margin: 0 auto;
+    width: 100px;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.SectionName {
+    font-family: Cambria;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+
+}
