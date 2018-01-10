@@ -6,6 +6,7 @@ import RowsAndQuestionPane from "../Obstacle/RowsAndQuestionPane";
 import ClueImage from "../Obstacle/ClueImage";
 import Points from "../Obstacle/Points";
 import CandidateAnswer from "../Obstacle/CandidateAnswer";
+import CandidateGranted from "../Obstacle/CandidateGranted";
 import {obstacleBackground} from "../../Stylesheet/GeneralStyles/SectionAndMainCandidate";
 
 export default class MainObstacle extends React.Component {
@@ -40,6 +41,7 @@ export default class MainObstacle extends React.Component {
             {/*<ClueImage/>*/}
             {/*<Points/>*/}
             {/*<CandidateAnswer/>*/}
+            {/*<CandidateGranted/>*/}
         </div>;
     }
 }

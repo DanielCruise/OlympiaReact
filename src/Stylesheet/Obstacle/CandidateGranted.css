@@ -1,0 +1,18 @@
+.CandidateGrantedRender {
+    position: fixed;
+    display: flex;
+    color: white;
+    margin-left: 95px;
+    width: 900px;
+    font-weight: bold;
+    margin-top: 500px;
+}
+
+.CandidateGrantedRender p {
+    width: 190px;
+    padding: 5px 3px;
+    margin-left: 5px;
+    background-color: red;
+    border: 2px solid yellow;
+    font-size: 20px;
+}
