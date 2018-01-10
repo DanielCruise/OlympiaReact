@@ -1,0 +1,23 @@
+.questionPane {
+    color: white;
+    position: fixed;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 48px;
+    margin-left: 360px;
+    width: 900px;
+}
+
+.questionPane p {
+    margin: 0;
+    text-align: center;
+    padding: 7px 0;
+}
+
+img {
+    position: fixed;
+    width: 890px;
+    height: 550px;
+    margin-top: 130px;
+    margin-left: 365px;
+}

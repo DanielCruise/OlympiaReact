@@ -1,0 +1,54 @@
+.AccelerationPointsRender {
+    position: fixed;
+    width: 100%;
+    margin-top: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.AccelerationAddPoint, .AccelerationNames, .AccelerationPoints {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.AccelerationNames p, .AccelerationPoints p {
+    background-color: black;
+    margin: 0 auto;
+    width: 200px;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.AccelerationPoints p {
+    padding: 0;
+    font-size: 80px;
+}
+
+.AccelerationPt1, .AccelerationPt2, .AccelerationPt3, .AccelerationPt4 {
+    background-color: black;
+    margin: 0 auto;
+    width: 200px;
+    display: flex;
+}
+
+.AccelerationPt1 p, .AccelerationPt2 p, .AccelerationPt3 p, .AccelerationPt4 p {
+    margin: 0 auto;
+    width: 100px;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid white;
+}
+
+.AccelerationSectionName {
+    font-family: Cambria;
+    width: 100%;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 100px;
+
+}

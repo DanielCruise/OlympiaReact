@@ -1,0 +1,43 @@
+.AccelerationCandidateAnswerRender {
+    position: fixed;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 450px;
+    color: white;
+    margin-top: 72px;
+    line-height: 1.8;
+}
+
+.AccelerationCandidate1 .AccelerationTime1, .AccelerationCandidate2 .AccelerationTime2,
+.AccelerationCandidate3 .AccelerationTime3, .AccelerationCandidate4 .AccelerationTime4 {
+    float: left;
+    font-size: 50px;
+    font-family: "Arial Narrow";
+    margin-left: 10px;
+}
+
+.AccelerationCandidate1 .AccelerationNameAndAns1, .AccelerationCandidate2 .AccelerationNameAndAns2,
+.AccelerationCandidate3 .AccelerationNameAndAns3, .AccelerationCandidate4 .AccelerationNameAndAns4 {
+    float: left;
+    margin-left: 110px;
+}
+
+.AccelerationName1, .AccelerationName2,.AccelerationName3,.AccelerationName4 {
+    color: yellow;
+}
+
+.AccelerationAns1, .AccelerationAns2,.AccelerationAns3,.AccelerationAns4 {
+    font-size: 30px;
+}
+
+.AccelerationCandidate2 {
+    margin-top: 165px;
+}
+
+.AccelerationCandidate3 {
+    margin-top: 311px;
+}
+
+.AccelerationCandidate4 {
+    margin-top: 473px;
+}

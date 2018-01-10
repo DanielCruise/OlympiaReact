@@ -1,43 +1,43 @@
-.CandidateAnswerRender {
+.ObstacleCandidateAnswerRender {
     position: fixed;
     font-weight: bold;
     font-size: 25px;
     line-height: 1.8;
 }
 
-.Candidate1, .Candidate3 {
+.ObstacleCandidate1, .ObstacleCandidate3 {
     position: fixed;
     width: 640px;
     float: left;
     text-align: right;
 }
 
-.Candidate2, .Candidate4 {
+.ObstacleCandidate2, .ObstacleCandidate4 {
     position: fixed;
     width: 640px;
     right: 0;
 }
 
-.Name1, .Name2, .Name3, .Name4 {
+.ObstacleName1, .ObstacleName2, .ObstacleName3, .ObstacleName4 {
     color: yellow;
 }
 
-.Ans1, .Ans2, .Ans3, .Ans4 {
+.ObstacleAns1, .ObstacleAns2, .ObstacleAns3, .ObstacleAns4 {
     color: white;
 }
 
-.Candidate1 {
+.ObstacleCandidate1 {
     margin-top: 60px;
 }
 
-.Candidate3 {
+.ObstacleCandidate3 {
     margin-top: 380px;
 }
 
-.Candidate2 {
+.ObstacleCandidate2 {
     margin-top: 220px;
 }
 
-.Candidate4 {
+.ObstacleCandidate4 {
     margin-top: 540px;
 }
