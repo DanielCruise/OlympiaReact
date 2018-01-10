@@ -1,5 +1,6 @@
 .backgroundImage, .obstacleBackground, .obstacleAnsBackground,
-.accelerationBackground, .accelerationAnsBackground {
+.accelerationBackground, .accelerationAnsBackground, .finishingBackground,
+.finishingQuestionPackBackground, .resultShowingBackGround {
     width: 100%;
     height: 100%;
     background-image: url("../../Resources/Images/StartBackground.png");
@@ -24,6 +25,18 @@
 
 .accelerationAnsBackground {
     background-image: url("../../Resources/Images/AccelerationAnsBackground.png");
+}
+
+.finishingBackground {
+    background-image: url("../../Resources/Images/FinishingBackground.png");
+}
+
+.finishingQuestionPackBackground {
+    background-image: url("../../Resources/Images/FinishingQuestionPackBackground.png");
+}
+
+.resultShowingBackGround {
+    background-image: url("../../Resources/Images/ResultShowingBackground.png");
 }
 
 .sectionName {

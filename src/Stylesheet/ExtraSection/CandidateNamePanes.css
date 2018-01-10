@@ -1,0 +1,15 @@
+.CandidateNamePanesRender {
+    position: fixed;
+    top: 250px;
+    right: 100px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.CandidateNamePanesRender p {
+    background-color: yellow;
+    padding: 5px 0;
+    width: 300px;
+}

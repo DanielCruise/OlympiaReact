@@ -3,10 +3,10 @@ import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
 import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
-import QuestionPane from "../Acceleration/QuestionPane";
-import ImagePane from "../Acceleration/ImagePane";
-import AccelerationCandidateAnswer from "../Acceleration/AccelerationCandidateAnswer";
-import AccelerationPoints from "../Acceleration/AccelerationPoints";
+import QuestionPane from "./QuestionPane";
+import ImagePane from "./ImagePane";
+import AccelerationCandidateAnswer from "./AccelerationCandidateAnswer";
+import AccelerationPoints from "./AccelerationPoints";
 import "../../Stylesheet/Acceleration/AccelerationPoints.css";
 import "../../Stylesheet/GeneralStyles/SectionNameAndBackground.css";
 

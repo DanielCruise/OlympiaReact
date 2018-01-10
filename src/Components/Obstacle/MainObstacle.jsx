@@ -3,11 +3,12 @@ import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
 import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
-import RowsAndQuestionPane from "../Obstacle/RowsAndQuestionPane";
-import ClueImage from "../Obstacle/ClueImage";
-import Points from "../Obstacle/Points";
-import CandidateAnswer from "../Obstacle/CandidateAnswer";
-import CandidateGranted from "../Obstacle/CandidateGranted";
+import RowsAndQuestionPane from "./RowsAndQuestionPane";
+import ClueImage from "./ClueImage";
+import Points from "./Points";
+import CandidateAnswer from "./CandidateAnswer";
+import CandidateGranted from "./CandidateGranted";
+import AdventurousSection from "./AdventurousSection";
 import "../../Stylesheet/GeneralStyles/SectionNameAndBackground.css";
 
 export default class MainObstacle extends React.Component {
@@ -44,6 +45,7 @@ export default class MainObstacle extends React.Component {
             {/*<Points/>*/}
             {/*<CandidateAnswer/>*/}
             <CandidateGranted/>
+            {/*<AdventurousSection/>*/}
         </div>;
     }
 }
