@@ -1,11 +1,11 @@
 import React from "react";
-import {sectionName} from '../../Stylesheet/GeneralStyles/SectionAndMainCandidate';
+import '../../Stylesheet/GeneralStyles/SectionNameAndBackground.css';
 
 export default class SectionName extends React.Component {
     render() {
         return (
           <div>
-              <p style={sectionName}>{this.props.sectionName}</p>
+              <p className="sectionName">{this.props.sectionName}</p>
           </div>
         );
     }

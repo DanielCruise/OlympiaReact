@@ -1,13 +1,14 @@
 import React from "react";
 import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
+import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
 import RowsAndQuestionPane from "../Obstacle/RowsAndQuestionPane";
 import ClueImage from "../Obstacle/ClueImage";
 import Points from "../Obstacle/Points";
 import CandidateAnswer from "../Obstacle/CandidateAnswer";
 import CandidateGranted from "../Obstacle/CandidateGranted";
-import {obstacleBackground} from "../../Stylesheet/GeneralStyles/SectionAndMainCandidate";
+import "../../Stylesheet/GeneralStyles/SectionNameAndBackground.css";
 
 export default class MainObstacle extends React.Component {
     constructor() {
@@ -33,15 +34,16 @@ export default class MainObstacle extends React.Component {
     }
 
     render() {
-        return <div style={obstacleBackground}>
+        return <div className="obstacleBackground">
             <DropListActions actions={this.state.actions}/>
-            <TopNamesAndPoints/>
-            <SectionName sectionName={this.state.sectionName}/>
-            {/*<RowsAndQuestionPane/>*/}
+            <DropListSections/>
+            {/*<TopNamesAndPoints/>*/}
+            {/*<SectionName sectionName={this.state.sectionName}/>*/}
+            <RowsAndQuestionPane/>
             {/*<ClueImage/>*/}
             {/*<Points/>*/}
             {/*<CandidateAnswer/>*/}
-            {/*<CandidateGranted/>*/}
+            <CandidateGranted/>
         </div>;
     }
 }

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2282721a-5860-4873-9dba-f050fc475116" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Stylesheet/Obstacle/CandidateGranted.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Obstacle/CandidateGranted.jsx" afterPath="$PROJECT_DIR$/src/Components/Obstacle/CandidateGranted.jsx" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx" afterPath="$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GeneralRendering/DropListSections.jsx" afterPath="$PROJECT_DIR$/src/Components/GeneralRendering/DropListSections.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx" afterPath="$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx" />
       <change beforePath="$PROJECT_DIR$/src/Components/Obstacle/MainObstacle.jsx" afterPath="$PROJECT_DIR$/src/Components/Obstacle/MainObstacle.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" afterPath="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/Stylesheet/GeneralStyles/DropListActions.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionAndMainCandidate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Stylesheet/Obstacle/RowsAndLetters.css" afterPath="$PROJECT_DIR$/src/Stylesheet/Obstacle/RowsAndLetters.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SectionName.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainObstacle.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/MainObstacle.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state relative-caret-position="-212">
+              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -31,33 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CandidateGranted.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/CandidateGranted.jsx">
+      <file leaf-file-name="SectionNameAndBackground.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionNameAndBackground.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CandidateGranted.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stylesheet/Obstacle/CandidateGranted.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectionAndMainCandidate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionAndMainCandidate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            <state relative-caret-position="272">
+              <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -80,6 +76,11 @@
       <find>font-weight: bold;</find>
       <find>color: white;</find>
       <find>AddPoint</find>
+      <find>&quot;</find>
+      <find>,</find>
+      <find>export const</find>
+      <find>=</find>
+      <find>'</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,26 +105,29 @@
         <option value="$PROJECT_DIR$/src/Components/StyleElements/GeneralStyles/DropListActions.css" />
         <option value="$PROJECT_DIR$/src/Components/GeneralRendering/TopNamesAndPoints.jsx" />
         <option value="$PROJECT_DIR$/src/Components/WarmingUp/SectionName.jsx" />
-        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/Rows.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/RowsAndQuestionPane.jsx" />
         <option value="$PROJECT_DIR$/src/Components/GeneralRendering/Question.jsx" />
         <option value="$PROJECT_DIR$/src/Components/WarmingUp/MainInfo.jsx" />
         <option value="$PROJECT_DIR$/src/Stylesheet/WarmingUpAndFinishing/MainInfo.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Stylesheet/Obstacle/RowsAndLetters.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/Points.jsx" />
         <option value="$PROJECT_DIR$/src/Stylesheet/Obstacle/Points.css" />
         <option value="$PROJECT_DIR$/src/Stylesheet/WarmingUpAndFinishing/SectionAndMainCandidate.js" />
-        <option value="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" />
-        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/CandidateAnswer.jsx" />
         <option value="$PROJECT_DIR$/src/Stylesheet/Obstacle/ClueImage.css" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/ClueImage.jsx" />
         <option value="$PROJECT_DIR$/src/Stylesheet/Obstacle/CandidateAnswer.css" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/CandidateGranted.jsx" />
         <option value="$PROJECT_DIR$/src/Stylesheet/Obstacle/CandidateGranted.css" />
+        <option value="$PROJECT_DIR$/src/Stylesheet/GeneralStyles/DropListActions.css" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/DropListSections.jsx" />
+        <option value="$PROJECT_DIR$/src/Stylesheet/Obstacle/RowsAndLetters.css" />
+        <option value="$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx" />
+        <option value="$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionNameAndBackground.css" />
         <option value="$PROJECT_DIR$/src/Components/Obstacle/MainObstacle.jsx" />
       </list>
     </option>
@@ -139,7 +143,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1358" />
@@ -256,6 +260,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\olpa_newver\src\Components\GeneralRendering" />
       <recent name="C:\Apache24\htdocs\olpa_newver\src\Components\WarmingUp" />
     </key>
   </component>
@@ -289,15 +294,15 @@
       <workItem from="1515418823359" duration="8363000" />
       <workItem from="1515427337389" duration="2637000" />
       <workItem from="1515469705889" duration="2249000" />
-      <workItem from="1515484813343" duration="26704000" />
+      <workItem from="1515484813343" duration="30563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53914000" />
+    <option name="totallyTimeSpent" value="57773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24553572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -353,16 +358,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/StyleElements/WarmingUpAndFinishing/MainInfos.css" />
-    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/SectionName.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/CandidateNamePanes.jsx" />
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -442,54 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/Question.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stylesheet/WarmingUpAndFinishing/MainInfo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainInfo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/RowsAndQuestionPane.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="48" lean-forward="true" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stylesheet/Obstacle/RowsAndLetters.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -528,7 +479,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -538,26 +489,6 @@
         <state relative-caret-position="-550">
           <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,16 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/Points.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/CandidateAnswer.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -615,10 +536,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionAndMainCandidate.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/CandidateGranted.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="1" column="51" lean-forward="false" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        <state relative-caret-position="102">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stylesheet/GeneralStyles/DropListActions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stylesheet/WarmingUpAndFinishing/MainInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stylesheet/Obstacle/RowsAndLetters.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -631,20 +578,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/CandidateGranted.jsx">
+    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionAndMainCandidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="61" lean-forward="false" selection-start-line="0" selection-start-column="61" selection-end-line="0" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/WarmingUp/MainWarmingUp.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/RowsAndQuestionPane.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/Points.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/DropListActions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/DropListSections.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/GeneralRendering/SectionName.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stylesheet/GeneralStyles/SectionNameAndBackground.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Obstacle/MainObstacle.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        <state relative-caret-position="-212">
+          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
