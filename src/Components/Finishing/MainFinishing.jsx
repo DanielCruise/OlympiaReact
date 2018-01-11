@@ -14,22 +14,57 @@ export default class MainWarmingUp extends React.Component {
         this.state = {
             actions:
                 [
-                    "HOÀN THÀNH PHẦN THI",
-                    "CẬP NHẬT ĐIỂM"
+                    {
+                        "innerAction": "SẴN SÀNG VỀ ĐÍCH",
+                        "callTo": this.FinishingReady
+                    },
+                    {
+                        "innerAction": "HOÀN THÀNH LƯỢT THI",
+                        "callTo": this.FinishingComplete
+                    },
+                    {
+                        "innerAction": "CẬP NHẬT ĐIỂM",
+                        "callTo": null
+                    }
                 ],
+            finishingShowMainInfo: false,
+            finishingReady: false,
             sectionName: "VỀ ĐÍCH"
         }
     }
 
+    ComeToFinishingSection = () => {
+        this.setState({
+            finishingShowMainInfo: !this.state.finishingShowMainInfo,
+            finishingReady: !this.state.finishingReady
+        });
+    };
+
+    FinishingReady = () => {
+        this.setState({
+            finishingReady: true
+        });
+    };
+
+    FinishingComplete = () => {
+        this.setState({
+            finishingShowMainInfo: false
+        });
+    };
+
     render() {
         return <div className="finishingBackground">
             <DropListActions actions={this.state.actions}/>
-            {/*<TopNamesAndPoints/>*/}
-            {/*<MainInfoFinishing/>*/}
-            {/*<SectionName sectionName={this.state.sectionName}/>*/}
-            <QuestionPackChoosing/>
-            <FunctionButtons/>
-            <Star/>
+            <TopNamesAndPoints/>
+            <SectionName sectionName={this.state.sectionName}/>
+            {this.state.finishingReady ? <QuestionPackChoosing/> : null}
+            {this.state.finishingShowMainInfo ?
+                <div>
+                    <MainInfoFinishing/>
+                    <FunctionButtons/>
+                    <Star/>
+                </div> : null
+            }
         </div>;
     }
 }

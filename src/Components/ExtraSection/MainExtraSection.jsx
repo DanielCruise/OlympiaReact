@@ -10,9 +10,18 @@ export default class MainExtraSection extends React.Component {
         this.state = {
             actions:
                 [
-                    "CÂU HỎI PHỤ SỐ 1",
-                    "CÂU HỎI PHỤ SỐ 2",
-                    "CÂU HỎI PHỤ SỐ 3"
+                    {
+                        "innerAction":"CÂU HỎI PHỤ SỐ 1",
+                        "callTo": null
+                    },
+                    {
+                        "innerAction":"CÂU HỎI PHỤ SỐ 2",
+                        "callTo": null
+                    },
+                    {
+                        "innerAction":"CÂU HỎI PHỤ SỐ 3",
+                        "callTo": null
+                    }
 
                 ]
         }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Stylesheet/Obstacle/RowsAndLetters.css";
 
-export default class RowsAndQuestionPane extends React.Component {
+export default class Rows extends React.Component {
     render() {
         return (
             <div className="Whole">
@@ -29,12 +29,11 @@ export default class RowsAndQuestionPane extends React.Component {
                         </div>
                     </div>
                     <div className="RowIndexes">
-                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                        <p>4</p>
                     </div>
-                </div>
-
-                <div className="QuestionPane">
-                    <p>Vĩ tuyến nào ở Bắc bán cầu chạy ngang qua dãy núi Bạch Mã?</p>
                 </div>
             </div>
         );

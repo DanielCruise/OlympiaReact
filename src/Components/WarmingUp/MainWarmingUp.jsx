@@ -11,20 +11,36 @@ export default class MainWarmingUp extends React.Component {
         this.state = {
             actions:
                 [
-                    "THÍ SINH TIẾP THEO",
-                    "CẬP NHẬT ĐIỂM",
-                    "TỔNG KÉT ĐIỂM"
+                    {
+                        "innerAction": "BẮT ĐẦU PHẦN THI",
+                        "callTo": this.warmingUpToggleMainInfo
+                    },
+                    {
+                        "innerAction": "THÍ SINH TIẾP THEO",
+                        "callTo": this.WarmingUpToggleMainInfo
+                    },
+                    {
+                        "innerAction":"CẬP NHẬT ĐIỂM",
+                        "callTo": null
+                    }
                 ],
+            warmingUpShowMainTheme: false,
             sectionName: "KHỞI ĐỘNG"
-        }
+        };
+
+        this.WarmingUpToggleMainInfo = this.WarmingUpToggleMainInfo.bind(this);
     }
+
+    WarmingUpToggleMainInfo = () => {
+        this.setState({warmingUpShowMainTheme: !this.state.warmingUpShowMainTheme});
+};
 
     render() {
         return <div className="backgroundImage">
             <DropListActions actions={this.state.actions}/>
             <TopNamesAndPoints/>
             <SectionName sectionName={this.state.sectionName}/>
-            <MainInfo/>
+            {this.state.warmingUpShowMainTheme ? <MainInfo/> : null}
         </div>;
     }
 }
