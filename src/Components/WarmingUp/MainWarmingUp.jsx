@@ -1,7 +1,6 @@
 import React from "react";
 import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
-import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
 import MainInfo from "./MainInfo";
 import "../../Stylesheet/GeneralStyles/SectionNameAndBackground.css";
@@ -23,7 +22,6 @@ export default class MainWarmingUp extends React.Component {
     render() {
         return <div className="backgroundImage">
             <DropListActions actions={this.state.actions}/>
-            <DropListSections/>
             <TopNamesAndPoints/>
             <SectionName sectionName={this.state.sectionName}/>
             <MainInfo/>

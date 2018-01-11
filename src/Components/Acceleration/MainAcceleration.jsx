@@ -1,7 +1,6 @@
 import React from "react";
 import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
-import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
 import QuestionPane from "./QuestionPane";
 import ImagePane from "./ImagePane";
@@ -30,7 +29,6 @@ export default class MainAcceleration extends React.Component {
     render() {
         return <div className="accelerationBackground">
             <DropListActions actions={this.state.actions}/>
-            <DropListSections/>
             {/*<TopNamesAndPoints/>*/}
             {/*<SectionName sectionName={this.state.sectionName}/>*/}
             <QuestionPane/>

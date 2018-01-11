@@ -1,7 +1,6 @@
 import React from "react";
 import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
-import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
 import RowsAndQuestionPane from "./RowsAndQuestionPane";
 import ClueImage from "./ClueImage";
@@ -37,7 +36,6 @@ export default class MainObstacle extends React.Component {
     render() {
         return <div className="obstacleBackground">
             <DropListActions actions={this.state.actions}/>
-            <DropListSections/>
             {/*<TopNamesAndPoints/>*/}
             {/*<SectionName sectionName={this.state.sectionName}/>*/}
             <RowsAndQuestionPane/>

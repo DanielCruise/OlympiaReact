@@ -1,5 +1,4 @@
 import React from "react";
-import DropListSections from "../GeneralRendering/DropListSections";
 import DropListActions from "../GeneralRendering/DropListActions";
 import ExtraQuestionPane from "./ExtraQuestionPane";
 import CandidateNamePanes from "./CandidateNamePanes";
@@ -21,7 +20,6 @@ export default class MainExtraSection extends React.Component {
     render() {
         return <div className="obstacleBackground">
             <DropListActions actions={this.state.actions}/>
-            <DropListSections/>
             <ExtraQuestionPane/>
             <CandidateNamePanes/>
         </div>;

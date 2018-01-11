@@ -1,7 +1,6 @@
 import React from "react";
 import TopNamesAndPoints from "../GeneralRendering/TopNamesAndPoints";
 import DropListActions from "../GeneralRendering/DropListActions";
-import DropListSections from "../GeneralRendering/DropListSections";
 import SectionName from "../GeneralRendering/SectionName";
 import MainInfoFinishing from "./MainInfoFinishing";
 import QuestionPackChoosing from "./QuestionPackChoosing";
@@ -25,7 +24,6 @@ export default class MainWarmingUp extends React.Component {
     render() {
         return <div className="finishingBackground">
             <DropListActions actions={this.state.actions}/>
-            <DropListSections/>
             {/*<TopNamesAndPoints/>*/}
             {/*<MainInfoFinishing/>*/}
             {/*<SectionName sectionName={this.state.sectionName}/>*/}
